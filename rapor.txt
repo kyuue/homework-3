@@ -1,0 +1,5 @@
+https://docs.microsoft.com/en-us/cpp/c-language/cpp-integer-limits?view=vs-2019
+72 den fazlasını hesaplamamasının sebebi long long tipinin sınırlarını aşması
+
+recursive fonksiyonun kat kat daha yavaş çalışmasının sebebi sürekli olarak kendisini çağırdığı için ve bir süre sonra sayılar büyüdüğünde bu ağacın aşırı büyümesinden dolayı sürekli olarak bir alt bir alt bir alt fonksiyon çağırısı uzun süre alıyor
+ayrıca stack memorynin static bir limiti var o limit aşıldığında program ölümcül? bir hata verecektir
